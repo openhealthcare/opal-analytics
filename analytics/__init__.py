@@ -2,7 +2,8 @@
 Plugin definition for the analytics OPAL plugin
 """
 from django.conf import settings
-from opal.utils import OpalPlugin
+
+from opal.core.plugins import OpalPlugin
 
 from analytics.urls import urlpatterns
 
