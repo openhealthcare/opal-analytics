@@ -1,5 +1,5 @@
 """
 Unittests for analytics
 """
-from django import TestCase
+from django.test import TestCase
 
