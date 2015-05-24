@@ -3,7 +3,7 @@ Plugin definition for the analytics OPAL plugin
 """
 from django.conf import settings
 
-from opal.core.plugins import OpalPlugin
+from opal.core import plugins
 
 from analytics.urls import urlpatterns
 
@@ -21,7 +21,7 @@ SCRIPTS = {
     }
 }
 
-class AnalyticsPlugin(OpalPlugin):
+class AnalyticsPlugin(plugins.OpalPlugin):
     """
     Main entrypoint to expose this plugin to our OPAL application.
     """
@@ -64,3 +64,5 @@ class AnalyticsPlugin(OpalPlugin):
         by our plugin.
         """
         return {}
+
+plugins.register(AnalyticsPlugin)
