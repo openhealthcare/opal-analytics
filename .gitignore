@@ -13,3 +13,4 @@ bower_components
 *#
 *.#
 opal_analytics.egg-info
+*.DS_Store
