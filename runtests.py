@@ -27,6 +27,9 @@ settings.configure(DEBUG=True,
 from analytics.tests import dummy_options_module
 from analytics.tests import dummy_opal_application
 
+import django
+django.setup()
+
 from django.test.runner import DiscoverRunner
 test_runner = DiscoverRunner(verbosity=1)
 failures = test_runner.run_tests(['analytics', ])
