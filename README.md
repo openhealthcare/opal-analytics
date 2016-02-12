@@ -1,3 +1,11 @@
+# !!!Warning - This Project is no longer maintained!!!
+
+This project has been superceded by functionality now in [OPAL](https://github.com/openhealthcare/opal) core, and is no longer being actively maintained.
+
+Users are advised not to use this code in their projects.
+
+### Begin Original README
+
 This is analytics - an [OPAL](https://github.com/openhealthcare/opal) plugin.
 
 ## Installation
